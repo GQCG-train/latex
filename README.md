@@ -19,4 +19,7 @@
 * You can learn the [basics of LaTeX](https://www.overleaf.com/learn/latex/Creating_a_document_in_LaTeX) on Overleaf.
 * [Learn Git and Github](https://www.youtube.com/watch?v=RGOj5yH7evk) for collaboration and project management.
 
+# FAQ
+
+- [Markdown > Marp: Enable HTML](https://github.com/orgs/marp-team/discussions/192)
 
