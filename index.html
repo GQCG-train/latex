@@ -53,7 +53,7 @@
 </ul>
 </div>
 </div>
-<p>Remedy: Only use LaTeX when absolutely needed!</p>
+<p>Current advice: only use LaTeX when absolutely needed!</p>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="3" data-paginate="true" data-style=".columns {
   display: grid;
@@ -73,7 +73,7 @@
 <li>Cmd/Ctrl+Shift+P &gt; LaTeX Workshop: Build LaTeX project.</li>
 </ul>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="4" data-marpit-fragments="5" data-paginate="true" data-style=".columns {
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="4" data-paginate="true" data-style=".columns {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
@@ -84,10 +84,36 @@
   gap: 1rem;
 }
 ;">
+<ul>
+<li>Add a slide:</li>
+</ul>
+<pre><code class="language-latex"><svg data-marp-fitting="svg" data-marp-fitting-code><foreignObject><span data-marp-fitting-svg-content><span data-marp-fitting-svg-content-wrap><span class="hljs-keyword">\begin</span>{frame}
+<span class="hljs-keyword">\frametitle</span>{Sample frame title}
+This is some text.
+<span class="hljs-keyword">\end</span>{frame}
+</span></span></foreignObject></svg></code></pre>
+<ul>
+<li>Add a figure:</li>
+</ul>
+<pre><code class="language-latex"><svg data-marp-fitting="svg" data-marp-fitting-code><foreignObject><span data-marp-fitting-svg-content><span data-marp-fitting-svg-content-wrap><span class="hljs-keyword">\includegraphics</span>{media/screenshots/screenshot-0.png}
+</span></span></foreignObject></svg></code></pre>
+<p>Go through the template and consult the <a href="https://www.overleaf.com/learn/latex/Beamer">docs</a> for more information.</p>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="5" data-marpit-fragments="5" data-paginate="true" data-style=".columns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+" data-marpit-pagination="5" data-marpit-pagination-total="9" style="--paginate:true;--style:.columns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+;">
 <h1>What did we just do?</h1>
 <div class="columns">
 <div>
-We have started our journey on the (long) road to reproducible research.
+We have started our journey on the road to reproducible research.
 <p>We are now at the <em>environment</em> stage:</p>
 <ul>
 <li data-marpit-fragment="1">Docker</li>
@@ -99,32 +125,14 @@ We have started our journey on the (long) road to reproducible research.
 <li data-marpit-fragment="4">VSCode (.devcontainer)</li>
 <li data-marpit-fragment="5">Github (intro to issues and PRs)</li>
 </ul>
+<p>Is possible for <strong>any</strong> environment (i.e. <strong>Python</strong>, <strong>R</strong>, ...)!</p>
 </div>
 <div> 
 <p><img src="img/tutorials_overview.png" alt="" style="width:500px;" /></p>
 </div>
 </div>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="5" data-marpit-fragments="2" data-paginate="true" data-style=".columns {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1rem;
-}
-" data-marpit-pagination="5" data-marpit-pagination-total="9" style="--paginate:true;--style:.columns {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1rem;
-}
-;">
-<h1>Use case: spin diagrams</h1>
-<p>Want to <strong>fully</strong> reproduce one of our latest papers? Download our <a href="https://github.com/GQCG-res/spin-diagrams">spin-diagrams repo</a> and</p>
-<ul>
-<li data-marpit-fragment="1">open the <code>notebooks</code> to reproduce/extend our results</li>
-<li data-marpit-fragment="2">open the <code>paper</code> folders to adjust our papers</li>
-</ul>
-<p>Meet the cloud: <a href="https://github.com/features/codespaces">Github Codespaces</a>.</p>
-</section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="6" data-paginate="true" data-style=".columns {
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="6" data-marpit-fragments="2" data-paginate="true" data-style=".columns {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
@@ -135,12 +143,13 @@ We have started our journey on the (long) road to reproducible research.
   gap: 1rem;
 }
 ;">
-<h1>Tutorial 2: thesis template</h1>
+<h1>Use case: spin diagrams</h1>
+<p>Want to <strong>fully</strong> reproduce one of our latest papers? Download our <a href="https://github.com/GQCG-res/spin-diagrams">spin-diagrams repo</a> and</p>
 <ul>
-<li>Download the <a href="https://github.com/GQCG-oss/cleanthesis">GQCG Cleanthesis</a> template.</li>
-<li>Reopen the root folder in a container.</li>
-<li>Cmd/Ctrl+Shift+P &gt; LaTeX Workshop: Build LaTeX project.</li>
+<li data-marpit-fragment="1">open the <code>notebooks</code> to reproduce/extend our results using Python</li>
+<li data-marpit-fragment="2">open the <code>paper</code> folders to adjust our papers</li>
 </ul>
+<p>Do not have enough compute: meet the cloud: <a href="https://github.com/features/codespaces">Github Codespaces</a>.</p>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="7" data-paginate="true" data-style=".columns {
   display: grid;
@@ -153,10 +162,13 @@ We have started our journey on the (long) road to reproducible research.
   gap: 1rem;
 }
 ;">
-<h1>Use case: Bookdown and Knowdes</h1>
-<p>Standard LaTeX classes are <strong>not</strong> always the way to go.</p>
-<p>We want to have access to the Wikipedia of Electronic Structure Theory.</p>
-<p>Meet <a href="https://gqcg-res.github.io/knowdes/">Knowdes</a>, powered by <a href="https://bookdown.org/">Bookdown</a>.</p>
+<h1>Tutorial 2: thesis template</h1>
+<ul>
+<li>Download the <a href="https://github.com/GQCG-oss/cleanthesis">GQCG Cleanthesis</a> template.</li>
+<li>Reopen the root folder in a container.</li>
+<li>Cmd/Ctrl+Shift+P &gt; LaTeX Workshop: Build LaTeX project.</li>
+</ul>
+<p>&lt;G|QC|G&gt; <em>forked</em> this project to extend it and, eventually, contribute back. We are open to issues and PRs!</p>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="8" data-paginate="true" data-style=".columns {
   display: grid;
@@ -169,13 +181,11 @@ We have started our journey on the (long) road to reproducible research.
   gap: 1rem;
 }
 ;">
-<h1>Some questions</h1>
-<ul>
-<li>These slides were made with <a href="https://marp.app/">Marp</a>, which support math TeX code (e.g. <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mover accent="true"><mi>H</mi><mo>^</mo></mover><mpadded><mi mathvariant="normal">∣</mi><mi mathvariant="normal">Ψ</mi><mo stretchy="false">⟩</mo></mpadded><mo>=</mo><mi>E</mi><mpadded><mi mathvariant="normal">∣</mi><mi mathvariant="normal">Ψ</mi><mo stretchy="false">⟩</mo></mpadded></mrow><annotation encoding="application/x-tex">\hat{H} \ket{\Psi} = E \ket{\Psi}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.1968em;vertical-align:-0.25em;"></span><span class="mord accent"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.9468em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord mathnormal" style="margin-right:0.08125em;">H</span></span><span style="top:-3.2523em;"><span class="pstrut" style="height:3em;"></span><span class="accent-body" style="left:-0.1944em;"><span class="mord">^</span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="minner"><span class="mord">∣</span><span class="mord"><span class="mord">Ψ</span></span><span class="mclose">⟩</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.05764em;">E</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="minner"><span class="mord">∣</span><span class="mord"><span class="mord">Ψ</span></span><span class="mclose">⟩</span></span></span></span></span>). I did <strong>not</strong> use beamer. Why?</li>
-<li>LaTeX vs Word should be viewed in a wider context: what are the most important documents for <em>you</em> and <em>your group</em>? Do they need to be kept <strong>agile</strong>?</li>
-<li><em>As intended by Microsoft</em>, leaving the Office Ecosystem is hard. Why?</li>
-<li>Note that <strong>one</strong> click that is not <em>captured</em> can break reproducibility! Why is this a bad thing?</li>
-</ul>
+<h1>Use case: Bookdown and Knowdes</h1>
+<p>However, standard LaTeX classes are <strong>not</strong> always the way to go.</p>
+<p>We want to have access to the Wikipedia of Electronic Structure Theory.</p>
+<p>Meet <a href="https://gqcg-res.github.io/knowdes/">Knowdes</a>, powered by <a href="https://bookdown.org/">Bookdown</a>.</p>
+<p>This is a HTML interface, but you can export the same document to a <strong>PDF</strong>, <strong>EPUB</strong> and <strong>Word</strong>.</p>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="9" data-paginate="true" data-style=".columns {
   display: grid;
@@ -188,16 +198,14 @@ We have started our journey on the (long) road to reproducible research.
   gap: 1rem;
 }
 ;">
-<h1>Closing remarks: the future is now</h1>
-<div class="columns">
-<div>
-<p><img src="img/sensors.jpeg" alt="" style="width:400px;" /></p>
-</div>
-<div> 
-<p><img src="img/self-driving-lab.jpeg" alt="" style="width:600px;" /></p>
-</div>
-</div>
-<p>&lt;G|QC|G&gt;'s IoT, data analysis and machine learning solutions are only a devcontainer away!</p>
+<h1>Some questions</h1>
+<ul>
+<li><em>As intended by Microsoft</em>, leaving the Office Ecosystem is hard. Why?</li>
+<li><code>LaTeX vs Word</code> should be viewed in a wider context: what are the most important documents for <em>you</em> and <em>your group</em>? Do they need to be kept <strong>agile</strong>?</li>
+<li>These slides were made with <a href="https://marp.app/">Marp</a>, which support math TeX code (e.g. <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mover accent="true"><mi>H</mi><mo>^</mo></mover><mpadded><mi mathvariant="normal">∣</mi><mi mathvariant="normal">Ψ</mi><mo stretchy="false">⟩</mo></mpadded><mo>=</mo><mi>E</mi><mpadded><mi mathvariant="normal">∣</mi><mi mathvariant="normal">Ψ</mi><mo stretchy="false">⟩</mo></mpadded></mrow><annotation encoding="application/x-tex">\hat{H} \ket{\Psi} = E \ket{\Psi}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.1968em;vertical-align:-0.25em;"></span><span class="mord accent"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.9468em;"><span style="top:-3em;"><span class="pstrut" style="height:3em;"></span><span class="mord mathnormal" style="margin-right:0.08125em;">H</span></span><span style="top:-3.2523em;"><span class="pstrut" style="height:3em;"></span><span class="accent-body" style="left:-0.1944em;"><span class="mord">^</span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="minner"><span class="mord">∣</span><span class="mord"><span class="mord">Ψ</span></span><span class="mclose">⟩</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.05764em;">E</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="minner"><span class="mord">∣</span><span class="mord"><span class="mord">Ψ</span></span><span class="mclose">⟩</span></span></span></span></span>). I did <strong>not</strong> use beamer. Why?</li>
+<li>Note that <strong>one</strong> click that is not <em>captured</em> can break reproducibility! Why is this a bad thing?</li>
+<li>You <strong>can</strong> draw <a href="https://mirror.koddos.net/CTAN/macros/generic/chemfig/chemfig-en.pdf">chemical structures</a> in LaTeX, but I don't know if you should?</li>
+</ul>
 </section>
 <script>!function(){"use strict";const t="marpitSVGPolyfill:setZoomFactor,",e=Symbol();let r,o;function n(n){const i="object"==typeof n&&n.target||document,a="object"==typeof n?n.zoom:n;window[e]||(Object.defineProperty(window,e,{configurable:!0,value:!0}),window.addEventListener("message",(({data:e,origin:r})=>{if(r===window.origin)try{if(e&&"string"==typeof e&&e.startsWith(t)){const[,t]=e.split(","),r=Number.parseFloat(t);Number.isNaN(r)||(o=r)}}catch(t){console.error(t)}})));let l=!1;Array.from(i.querySelectorAll("svg[data-marpit-svg]"),(t=>{var e,n,i,s;t.style.transform||(t.style.transform="translateZ(0)");const c=a||o||t.currentScale||1;r!==c&&(r=c,l=c);const d=t.getBoundingClientRect(),{length:f}=t.children;for(let r=0;r<f;r+=1){const o=t.children[r];if(o.getScreenCTM){const t=o.getScreenCTM();if(t){const r=null!==(n=null===(e=o.x)||void 0===e?void 0:e.baseVal.value)&&void 0!==n?n:0,a=null!==(s=null===(i=o.y)||void 0===i?void 0:i.baseVal.value)&&void 0!==s?s:0,l=o.children.length;for(let e=0;e<l;e+=1){const n=o.children[e];if("SECTION"===n.tagName){const{style:e}=n;e.transformOrigin||(e.transformOrigin=`${-r}px ${-a}px`),e.transform=`scale(${c}) matrix(${t.a}, ${t.b}, ${t.c}, ${t.d}, ${t.e-d.left}, ${t.f-d.top}) translateZ(0.0001px)`;break}}}}}})),!1!==l&&Array.from(i.querySelectorAll("iframe"),(({contentWindow:e})=>{null==e||e.postMessage(`${t}${l}`,"null"===window.origin?"*":window.origin)}))}r=1,o=void 0;const i=(t,e,r)=>{if(t.getAttribute(e)!==r)return t.setAttribute(e,r),!0};function a({once:t=!1,target:e=document}={}){const r="Apple Computer, Inc."===navigator.vendor?[n]:[];let o=!t;const a=()=>{for(const t of r)t({target:e});!function(t=document){Array.from(t.querySelectorAll('svg[data-marp-fitting="svg"]'),(t=>{var e;const r=t.firstChild,o=r.firstChild,{scrollWidth:n,scrollHeight:a}=o;let l,s=1;if(t.hasAttribute("data-marp-fitting-code")&&(l=null===(e=t.parentElement)||void 0===e?void 0:e.parentElement),t.hasAttribute("data-marp-fitting-math")&&(l=t.parentElement),l){const t=getComputedStyle(l),e=Math.ceil(l.clientWidth-parseFloat(t.paddingLeft||"0")-parseFloat(t.paddingRight||"0"));e&&(s=e)}const c=Math.max(n,s),d=Math.max(a,1),f=`0 0 ${c} ${d}`;i(r,"width",`${c}`),i(r,"height",`${d}`),i(t,"preserveAspectRatio",getComputedStyle(t).getPropertyValue("--preserve-aspect-ratio")||"xMinYMin meet"),i(t,"viewBox",f)&&t.classList.toggle("__reflow__")}))}(e),o&&window.requestAnimationFrame(a)};return a(),()=>{o=!1}}const l=Symbol(),s=document.currentScript;((t=document)=>{if("undefined"==typeof window)throw new Error("Marp Core's browser script is valid only in browser context.");if(t[l])return t[l];const e=a({target:t}),r=()=>{e(),delete t[l]};Object.defineProperty(t,l,{configurable:!0,value:r})})(s?s.getRootNode():document)}();
 </script></foreignObject></svg></div><script>/*!! License: https://unpkg.com/@marp-team/marp-cli@1.7.2/lib/bespoke.js.LICENSE.txt */
