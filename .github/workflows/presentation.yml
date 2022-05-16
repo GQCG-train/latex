@@ -16,11 +16,12 @@ jobs:
       uses: gqcg-oss/latex-action@master
       with:
         root_file: presentation.tex
+        working_directory: presentation
         latexmk_use_xelatex: true
     - name: Archive presentation.pdf
       uses: actions/upload-artifact@v2
       with:
         name: presentation.pdf
-        path: presentation.pdf
+        path: presentation/presentation.pdf
         retention-days: 7
         
