@@ -48,7 +48,7 @@ The (long) road to reproducible research.
 </div>
 <div> 
 
-![width:500px](../img/tutorials_overview.png)
+![width:500px](img/tutorials_overview.png)
 
 </div>
 </div>
