@@ -1,4 +1,4 @@
-![slides](https://github.com/GQCG-train/latex/actions/workflows/marp-pages.yml/badge.svg)
+[![slides](https://github.com/GQCG-train/latex/actions/workflows/slides.yml/badge.svg)](https://gqcg-train.github.io/latex/)
 
 # Templates
 
