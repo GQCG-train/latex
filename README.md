@@ -9,6 +9,11 @@
 * Download this repo and open the presentation folder in VSCode. Select the 'Reopen in Container option'.
 * You can build the presentation with `Ctrl/Cmd+Shift+P -> Latex Workshop: Build LaTeX project`. You can view the pdf by clicking on the ![view pdf](media/view-pdf.png) icon on the upper right.
 
+# Templates
+
+* [UGent beamer](https://github.com/GQCG-oss/ugent-beamer)
+* [GQCG Cleanthesis](https://github.com/GQCG-oss/cleanthesis)
+
 # Documentation and Support
 
 * You can learn the [basics of LaTeX](https://www.overleaf.com/learn/latex/Creating_a_document_in_LaTeX) on Overleaf.
