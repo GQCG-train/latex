@@ -14,7 +14,7 @@
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
 }
-" data-marpit-pagination="1" data-marpit-pagination-total="9" style="--paginate:true;--style:.columns {
+" data-marpit-pagination="1" data-marpit-pagination-total="10" style="--paginate:true;--style:.columns {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
@@ -23,44 +23,82 @@
 <h1><strong>LaTeX</strong></h1>
 <h2>a cog in a reproducible research framework</h2>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="2" data-marpit-fragments="6" data-paginate="true" data-style=".columns {
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="2" data-paginate="true" data-style=".columns {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
 }
-" data-marpit-pagination="2" data-marpit-pagination-total="9" style="--paginate:true;--style:.columns {
+" data-marpit-pagination="2" data-marpit-pagination-total="10" style="--paginate:true;--style:.columns {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
 }
 ;">
-<h1>Why (not) LaTeX</h1>
+<h1>Why LaTex?</h1>
+<p>Describe the <em>meta</em> of a piece of text.</p>
 <div class="columns">
 <div>
-<h2>Pro</h2>
-<ul>
-<li data-marpit-fragment="1"><strong>Flat text</strong></li>
-<li data-marpit-fragment="2">Stability needed for large documents</li>
-<li data-marpit-fragment="3">You don't have to control formatting</li>
-</ul>
+<pre><code class="language-latex"><svg data-marp-fitting="svg" data-marp-fitting-code><foreignObject><span data-marp-fitting-svg-content><span data-marp-fitting-svg-content-wrap><span class="hljs-keyword">\begin</span>{document}
+...
+<span class="hljs-keyword">\end</span>{document}
+</span></span></foreignObject></svg></code></pre>
+<pre><code class="language-latex"><svg data-marp-fitting="svg" data-marp-fitting-code><foreignObject><span data-marp-fitting-svg-content><span data-marp-fitting-svg-content-wrap><span class="hljs-keyword">\chapter</span>{}
+<span class="hljs-keyword">\section</span>{}
+</span></span></foreignObject></svg></code></pre>
 </div>
 <div>
-<h2>Con</h2>
-<ul>
-<li data-marpit-fragment="4">Only as strong as the weakest member of your research community</li>
-<li data-marpit-fragment="5">It is very hard to control formatting</li>
-<li data-marpit-fragment="6">You need to get used to an ecosystem of different tools</li>
-</ul>
+<pre><code class="language-latex"><svg data-marp-fitting="svg" data-marp-fitting-code><foreignObject><span data-marp-fitting-svg-content><span data-marp-fitting-svg-content-wrap><span class="hljs-keyword">\includegraphics</span>[]{}
+</span></span></foreignObject></svg></code></pre>
+<pre><code class="language-latex"><svg data-marp-fitting="svg" data-marp-fitting-code><foreignObject><span data-marp-fitting-svg-content><span data-marp-fitting-svg-content-wrap><span class="hljs-keyword">\begin</span>{tabular}{}
+<span class="hljs-keyword">\end</span>{tabular}
+</span></span></foreignObject></svg></code></pre>
+<pre><code class="language-latex"><svg data-marp-fitting="svg" data-marp-fitting-code><foreignObject><span data-marp-fitting-svg-content><span data-marp-fitting-svg-content-wrap><span class="hljs-keyword">\begin</span>{equation}
+  <span class="hljs-keyword">\hat</span>{H} <span class="hljs-keyword">\ket</span>{<span class="hljs-keyword">\Psi</span>} = E <span class="hljs-keyword">\ket</span>{<span class="hljs-keyword">\Psi</span>}
+<span class="hljs-keyword">\end</span>{equation}
+</span></span></foreignObject></svg></code></pre>
 </div>
 </div>
-<p>Current advice: only use LaTeX when absolutely needed!</p>
+<p>Typesetters can use this meta to format a document according to a specification (i.e. style .cls or .sty).</p>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="3" data-paginate="true" data-style=".columns {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
 }
-" data-marpit-pagination="3" data-marpit-pagination-total="9" style="--paginate:true;--style:.columns {
+" data-marpit-pagination="3" data-marpit-pagination-total="10" style="--paginate:true;--style:.columns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+;">
+<h1>Why LaTeX?</h1>
+<div class="columns">
+<div>
+<h2>Pro</h2>
+<ul>
+<li><strong>Flat text</strong></li>
+<li>Mathematics</li>
+<li>Stability needed for large documents</li>
+<li>You don't have to control formatting</li>
+</ul>
+</div>
+<div>
+<h2>Con</h2>
+<ul>
+<li>Only as strong as the weakest member of your research community</li>
+<li>It is very hard to control formatting</li>
+<li>You need to get used to an ecosystem of different tools if you want to get to the level of Office 365</li>
+</ul>
+</div>
+</div>
+<p>Think twice before using LaTeX!</p>
+</section>
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="4" data-paginate="true" data-style=".columns {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+" data-marpit-pagination="4" data-marpit-pagination-total="10" style="--paginate:true;--style:.columns {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
@@ -73,12 +111,12 @@
 <li>Cmd/Ctrl+Shift+P &gt; LaTeX Workshop: Build LaTeX project.</li>
 </ul>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="4" data-paginate="true" data-style=".columns {
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="5" data-paginate="true" data-style=".columns {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
 }
-" data-marpit-pagination="4" data-marpit-pagination-total="9" style="--paginate:true;--style:.columns {
+" data-marpit-pagination="5" data-marpit-pagination-total="10" style="--paginate:true;--style:.columns {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
@@ -99,12 +137,12 @@ This is some text.
 </span></span></foreignObject></svg></code></pre>
 <p>Go through the template and consult the <a href="https://www.overleaf.com/learn/latex/Beamer">docs</a> for more information.</p>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="5" data-marpit-fragments="5" data-paginate="true" data-style=".columns {
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="6" data-paginate="true" data-style=".columns {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
 }
-" data-marpit-pagination="5" data-marpit-pagination-total="9" style="--paginate:true;--style:.columns {
+" data-marpit-pagination="6" data-marpit-pagination-total="10" style="--paginate:true;--style:.columns {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
@@ -116,14 +154,14 @@ This is some text.
 We have started our journey on the road to reproducible research.
 <p>We are now at the <em>environment</em> stage:</p>
 <ul>
-<li data-marpit-fragment="1">Docker</li>
-<li data-marpit-fragment="2">Git</li>
-<li data-marpit-fragment="3">Conda</li>
+<li>Docker</li>
+<li>Git</li>
+<li>Conda</li>
 </ul>
 <p>Made possible by user-friendly interfaces:</p>
 <ul>
-<li data-marpit-fragment="4">VSCode (.devcontainer)</li>
-<li data-marpit-fragment="5">Github (intro to issues and PRs)</li>
+<li>VSCode (.devcontainer)</li>
+<li>Github (intro to issues and PRs)</li>
 </ul>
 <p>Is possible for <strong>any</strong> environment (i.e. <strong>Python</strong>, <strong>R</strong>, ...)!</p>
 </div>
@@ -132,12 +170,12 @@ We have started our journey on the road to reproducible research.
 </div>
 </div>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="6" data-marpit-fragments="2" data-paginate="true" data-style=".columns {
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="7" data-paginate="true" data-style=".columns {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
 }
-" data-marpit-pagination="6" data-marpit-pagination-total="9" style="--paginate:true;--style:.columns {
+" data-marpit-pagination="7" data-marpit-pagination-total="10" style="--paginate:true;--style:.columns {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
@@ -146,17 +184,17 @@ We have started our journey on the road to reproducible research.
 <h1>Use case: spin diagrams</h1>
 <p>Want to <strong>fully</strong> reproduce one of our latest papers? Download our <a href="https://github.com/GQCG-res/spin-diagrams">spin-diagrams repo</a> and</p>
 <ul>
-<li data-marpit-fragment="1">open the <code>notebooks</code> to reproduce/extend our results using Python</li>
-<li data-marpit-fragment="2">open the <code>paper</code> folders to adjust our papers</li>
+<li>open the <code>notebooks</code> to reproduce/extend our results using Python</li>
+<li>open the <code>paper</code> folders to adjust our papers</li>
 </ul>
 <p>Do not have enough compute: meet the cloud: <a href="https://github.com/features/codespaces">Github Codespaces</a>.</p>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="7" data-paginate="true" data-style=".columns {
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="8" data-paginate="true" data-style=".columns {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
 }
-" data-marpit-pagination="7" data-marpit-pagination-total="9" style="--paginate:true;--style:.columns {
+" data-marpit-pagination="8" data-marpit-pagination-total="10" style="--paginate:true;--style:.columns {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
@@ -170,12 +208,12 @@ We have started our journey on the road to reproducible research.
 </ul>
 <p>&lt;G|QC|G&gt; <em>forked</em> this project to extend it and, eventually, contribute back. We are open to issues and PRs!</p>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="8" data-paginate="true" data-style=".columns {
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="9" data-paginate="true" data-style=".columns {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
 }
-" data-marpit-pagination="8" data-marpit-pagination-total="9" style="--paginate:true;--style:.columns {
+" data-marpit-pagination="9" data-marpit-pagination-total="10" style="--paginate:true;--style:.columns {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
@@ -187,12 +225,12 @@ We have started our journey on the road to reproducible research.
 <p>Meet <a href="https://gqcg-res.github.io/knowdes/">Knowdes</a>, powered by <a href="https://bookdown.org/">Bookdown</a>.</p>
 <p>This is a HTML interface, but you can export the same document to a <strong>PDF</strong>, <strong>EPUB</strong> and <strong>Word</strong>.</p>
 </section>
-</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="9" data-paginate="true" data-style=".columns {
+</foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="10" data-paginate="true" data-style=".columns {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
 }
-" data-marpit-pagination="9" data-marpit-pagination-total="9" style="--paginate:true;--style:.columns {
+" data-marpit-pagination="10" data-marpit-pagination-total="10" style="--paginate:true;--style:.columns {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 1rem;
