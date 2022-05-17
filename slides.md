@@ -7,6 +7,7 @@ style: |
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 1rem;
   }
+
 ---
 
 # **LaTeX**
@@ -14,30 +15,74 @@ style: |
 
 ---
 
-# Why (not) LaTeX
+# Why LaTex?
+
+Describe the *meta* of a piece of text.
+
+<div class="columns">
+<div>
+
+```latex
+\begin{document}
+...
+\end{document}
+```
+
+```latex
+\chapter{}
+\section{}
+```
+
+</div>
+<div>
+
+```latex
+\includegraphics[]{}
+```
+
+```latex
+\begin{tabular}{}
+\end{tabular}
+```
+
+```latex
+\begin{equation}
+  \hat{H} \ket{\Psi} = E \ket{\Psi}
+\end{equation}
+```
+
+</div>
+</div>
+
+Typesetters can use this meta to format a document according to a specification (i.e. style .cls or .sty).
+
+---
+
+# Why LaTeX?
 
 <div class="columns">
 <div>
 
 ## Pro
 
-* **Flat text**
-* Stability needed for large documents
-* You don't have to control formatting
+- **Flat text**
+- Mathematics
+- Stability needed for large documents
+- You don't have to control formatting
 
 </div>
 <div>
 
 ## Con
 
-* Only as strong as the weakest member of your research community
-* It is very hard to control formatting
-* You need to get used to an ecosystem of different tools
+- Only as strong as the weakest member of your research community
+- It is very hard to control formatting
+- You need to get used to an ecosystem of different tools if you want to get to the level of Office 365
 
 </div>
 </div>
 
-Current advice: only use LaTeX when absolutely needed!
+Think twice before using LaTeX!
 
 ---
 
@@ -74,14 +119,14 @@ Go through the template and consult the [docs](https://www.overleaf.com/learn/la
 We have started our journey on the road to reproducible research.
 
 We are now at the *environment* stage:
-* Docker
-* Git
-* Conda
+- Docker
+- Git
+- Conda
 
 Made possible by user-friendly interfaces: 
 
-* VSCode (.devcontainer)
-* Github (intro to issues and PRs)
+- VSCode (.devcontainer)
+- Github (intro to issues and PRs)
 
 Is possible for **any** environment (i.e. **Python**, **R**, ...)! 
 
@@ -98,8 +143,8 @@ Is possible for **any** environment (i.e. **Python**, **R**, ...)!
 # Use case: spin diagrams
 
 Want to **fully** reproduce one of our latest papers? Download our [spin-diagrams repo](https://github.com/GQCG-res/spin-diagrams) and 
-* open the `notebooks` to reproduce/extend our results using Python
-* open the `paper` folders to adjust our papers
+- open the `notebooks` to reproduce/extend our results using Python
+- open the `paper` folders to adjust our papers
 
 Do not have enough compute: meet the cloud: [Github Codespaces](https://github.com/features/codespaces).
 
