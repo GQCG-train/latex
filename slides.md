@@ -33,6 +33,11 @@ Describe the *meta* of a piece of text.
 \section{}
 ```
 
+```latex
+\label{}
+\ref{}
+```
+
 </div>
 <div>
 
