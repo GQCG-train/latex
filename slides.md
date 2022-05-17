@@ -179,3 +179,4 @@ This is a HTML interface, but you can export the same document to a **PDF**, **E
 - These slides were made with [Marp](https://marp.app/), which support math TeX code (e.g. $\hat{H} \ket{\Psi} = E \ket{\Psi}$). I did **not** use beamer. Why? 
 - Note that **one** click that is not *captured* can break reproducibility! Why is this a bad thing?
 - You **can** draw [chemical structures](https://mirror.koddos.net/CTAN/macros/generic/chemfig/chemfig-en.pdf) in LaTeX, but I don't know if you should?
+
